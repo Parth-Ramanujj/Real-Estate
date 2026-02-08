@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Glass Villa",
+    "price": "$2,500,000",
+    "location": "Beverly Hills, CA",
+    "beds": 5,
+    "baths": 4.5,
+    "sqft": 4200,
+    "yearBuilt": 2024,
+    "image": "/properties/prop-1.jpg",
+    "images": [
+      "/properties/prop-1.jpg",
+      "/properties/prop-2.jpg",
+      "/properties/prop-3.jpg",
+      "/properties/prop-4.jpg",
+      "/properties/prop-5.jpg",
+      "/properties/prop-6.jpg",
+      "/properties/prop-7.jpg",
+      "/properties/prop-8.jpg",
+      "/properties/prop-9.jpg",
+      "/properties/prop-10.jpg",
+      "/properties/prop-11.jpg",
+      "/properties/prop-12.jpg"
+    ],
+    "description": "Experience the pinnacle of luxury living in this stunning modern estate. featuring floor-to-ceiling glass walls that seamlessly blend indoor and outdoor living spaces. The open-concept design is perfect for entertaining, with a chef's kitchen, expansive living areas, and a private backyard oasis complete with an infinity pool and spa. Master suite offers breathtaking views and a spa-like bathroom. Located in one of the most prestigious neighborhoods."
+  },
+  {
+    "id": 2,
+    "title": "Urban Penthouse",
+    "price": "$1,850,000",
+    "location": "New York, NY",
+    "beds": 3,
+    "baths": 2,
+    "sqft": 2100,
+    "yearBuilt": 2021,
+    "image": "/properties/prop-2.jpg",
+    "images": [
+      "/properties/prop-2.jpg",
+      "/properties/prop-3.jpg",
+      "/properties/prop-4.jpg"
+    ],
+    "description": "A sleek and modern penthouse in the heart of the city."
+  },
+  {
+    "id": 3,
+    "title": "Seaside Retreat",
+    "price": "$3,200,000",
+    "location": "Malibu, CA",
+    "beds": 4,
+    "baths": 3,
+    "sqft": 3500,
+    "yearBuilt": 2019,
+    "image": "/properties/prop-3.jpg",
+    "images": [
+      "/properties/prop-3.jpg",
+      "/properties/prop-5.jpg",
+      "/properties/prop-6.jpg"
+    ],
+    "description": "Relax by the ocean in this beautiful seaside home."
+  },
+  {
+    "id": 4,
+    "title": "ahemdabad",
+    "price": "1.2lacs",
+    "location": "Ahemdabad thaltej",
+    "beds": "5",
+    "baths": "5",
+    "sqft": "5",
+    "description": "i am ai automation workflow master",
+    "image": "/uploads/1770561174619-dwarka.jpeg",
+    "images": [
+      "/uploads/1770561184795-dwarka.jpeg",
+      "/uploads/1770561184830-myphoto.jpeg",
+      "/uploads/1770561184835-parth.png",
+      "/uploads/1770561184842-photo.png.jpg"
+    ],
+    "yearBuilt": 2026
+  }
+]
