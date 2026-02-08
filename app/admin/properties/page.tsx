@@ -12,13 +12,27 @@ export default function AdminProperties() {
 
     useEffect(() => {
         fetch('/api/properties')
-            .then(res => res.json())
+            .then(async res => {
+                if (!res.ok) {
+                    const errData = await res.json().catch(() => ({}));
+                    throw new Error(errData.error || 'Failed to fetch properties');
+                }
+                return res.json();
+            })
             .then(data => {
-                setProperties(data);
+                if (Array.isArray(data)) {
+                    setProperties(data);
+                } else {
+                    console.error('API returned non-array data:', data);
+                    setProperties([]);
+                    showNotification('Received invalid data from server', 'error');
+                }
                 setLoading(false);
             })
             .catch(err => {
                 console.error('Failed to fetch properties:', err);
+                showNotification(err.message, 'error');
+                setProperties([]); // Ensure it remains an array
                 setLoading(false);
             });
     }, []);
