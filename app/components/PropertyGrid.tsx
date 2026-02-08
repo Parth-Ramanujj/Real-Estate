@@ -36,7 +36,11 @@ export default async function PropertyGrid({ searchParams }: { searchParams: Pro
         console.error('Error fetching properties:', error);
         return (
             <div className="text-center py-24 text-red-500">
-                Error loading properties. Please try again later.
+                <p className="text-xl font-bold mb-2">Error loading properties</p>
+                <p className="text-sm opacity-80">{error.message}</p>
+                <p className="text-xs mt-4 text-gray-500">
+                    (If you are seeing this on Vercel, check your Environment Variables)
+                </p>
             </div>
         );
     }
